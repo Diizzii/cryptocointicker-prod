@@ -7,7 +7,6 @@ import { AppContext } from '../context/AppContext'
 
 const CoinsTable = () => {
   const [allCoins, setAllCoins] = useState([])
-
   const { setCoinValues, setTouched, touched } = useContext(AppContext)
 
   const provideData = useCallback(async () => {
