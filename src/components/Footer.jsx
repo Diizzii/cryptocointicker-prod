@@ -6,8 +6,12 @@ const Footer = () => {
       <footer className='footer has-background-light ' id='footer'>
         <div className='content has-text-centered'>
           <p>
-            <strong>CryptoCoinTicker</strong> by{' '}
-            <a href='https://www.dkdev.link'>...dkdev...</a>
+            <small>
+              <strong>CryptoCoinTicker</strong> by{' '}
+              <a href='https://www.dkdev.link' target='_blank' rel='noreferrer'>
+                ...dkdev...
+              </a>
+            </small>
           </p>
           <p className='breakpoint'>
             <small>
