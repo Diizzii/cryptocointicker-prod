@@ -1,0 +1,61 @@
+/* ELEMENTS */
+
+/* COMPONENTS */
+
+.center-button {
+  text-align: center;
+}
+
+.portfolio-table {
+  margin: 1% auto;
+}
+
+.total-value {
+  text-align: right;
+  width: 50%;
+  margin: auto;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+td input {
+  text-align: right;
+}
+
+/* LOADING */
+
+.loading {
+  margin-top: 18%;
+}
+
+/* COINSTABLE */
+
+.center {
+  margin: 3% auto;
+}
+
+.coin-image {
+  width: 20px;
+  height: 20px;
+}
+
+/* FOOTER */
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  width: 100vw;
+  margin: 0;
+  padding: 1%;
+}
+
+/* BREAKPOINTS */
+
+@media only screen and (max-width: 900px) {
+  .breakpoint {
+    display: none;
+  }
+}
