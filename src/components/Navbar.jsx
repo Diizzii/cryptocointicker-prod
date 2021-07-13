@@ -72,7 +72,7 @@ const Navbar = () => {
   return (
     <>
       <nav
-        className='navbar has-background-light'
+        className='navbar has-background-light breakpoint'
         role='navigation'
         aria-label='main navigation'
       >

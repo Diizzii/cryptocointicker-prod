@@ -3,13 +3,13 @@ import React from 'react'
 const Footer = () => {
   return (
     <>
-      <footer className='footer has-background-light' id='footer'>
+      <footer className='footer has-background-light ' id='footer'>
         <div className='content has-text-centered'>
           <p>
             <strong>CryptoCoinTicker</strong> by{' '}
             <a href='https://www.dkdev.link'>...dkdev...</a>
           </p>
-          <p>
+          <p className='breakpoint'>
             <small>
               powered by{' '}
               <a

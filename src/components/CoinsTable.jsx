@@ -42,11 +42,11 @@ const CoinsTable = () => {
           <tr>
             <th>Crypto</th>
             <th>Symbol</th>
-            <th>Abbreviation</th>
+            <th className='breakpoint'>Abbreviation</th>
             <th className='breakpoint'>Created</th>
             <th className='breakpoint'>Description</th>
             <th className='has-text-right'>Current Price ($)</th>
-            <th className='has-text-right'>Market Cap ($)</th>
+            <th className='breakpoint has-text-right '>Market Cap ($)</th>
           </tr>
         </thead>
         <tbody>
@@ -61,13 +61,13 @@ const CoinsTable = () => {
                     className='coin-image'
                   />
                 </td>
-                <td>{coin.abbreviation}</td>
+                <td className='breakpoint'>{coin.abbreviation}</td>
                 <td className='breakpoint'>{coin.created}</td>
                 <td className='breakpoint'>{coin.description}</td>
                 <td className='has-text-right'>
                   {coin.currentPrice.toLocaleString('en-US')}
                 </td>
-                <td className='has-text-right'>
+                <td className='breakpoint has-text-right'>
                   {coin.marketCap.toLocaleString('en-US')}
                 </td>
               </tr>
