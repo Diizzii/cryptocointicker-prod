@@ -24,6 +24,20 @@ td input {
   text-align: right;
 }
 
+.react-confirm-alert-button-group > button {
+  outline: none;
+  background: #798de0;
+  border: none;
+  display: inline-block;
+  padding: 6px 18px;
+  color: #eee;
+  margin-right: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
 /* LOADING */
 
 .loading {
