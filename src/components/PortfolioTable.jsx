@@ -66,33 +66,37 @@ const PortfolioTable = () => {
         </thead>
         <tbody>
           {coinValues.map((coin) => {
-            return (
-              <tr key={coin.id}>
-                <td>{coin.crypto}</td>
-                <td>
-                  <img
-                    src={coin.symbol}
-                    alt={coin.abbreviation}
-                    className='coin-image'
-                  />
-                </td>
-                <td>{coin.abbreviation}</td>
-                <td className='has-text-right'>
-                  {coin.currentPrice.toLocaleString('en-US')}
-                </td>
-                <td className='has-text-right'>
-                  {Number(
-                    coinHoldings[coin.abbreviation.toLowerCase()]
-                  ).toLocaleString('en-US')}
-                </td>
-                <td className='has-text-right'>
-                  {(
-                    coin.currentPrice *
-                    coinHoldings[coin.abbreviation.toLowerCase()]
-                  ).toLocaleString('en-US')}
-                </td>
-              </tr>
-            )
+            if (Number(coinHoldings[coin.abbreviation.toLowerCase()] > 0)) {
+              return (
+                <tr key={coin.id}>
+                  <td>{coin.crypto}</td>
+                  <td>
+                    <img
+                      src={coin.symbol}
+                      alt={coin.abbreviation}
+                      className='coin-image'
+                    />
+                  </td>
+                  <td>{coin.abbreviation}</td>
+                  <td className='has-text-right'>
+                    {coin.currentPrice.toLocaleString('en-US')}
+                  </td>
+                  <td className='has-text-right'>
+                    {Number(
+                      coinHoldings[coin.abbreviation.toLowerCase()]
+                    ).toLocaleString('en-US')}
+                  </td>
+                  <td className='has-text-right'>
+                    {(
+                      coin.currentPrice *
+                      coinHoldings[coin.abbreviation.toLowerCase()]
+                    ).toLocaleString('en-US')}
+                  </td>
+                </tr>
+              )
+            } else {
+              return <></>
+            }
           })}
         </tbody>
       </table>
