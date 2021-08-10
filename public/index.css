@@ -64,6 +64,7 @@ td input {
   width: 100vw;
   margin: 0;
   padding: 1%;
+  line-height: 0.5em;
 }
 
 /* BREAKPOINTS */
