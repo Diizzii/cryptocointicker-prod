@@ -84,6 +84,6 @@ td input {
     margin-bottom: 0.1em;
   }
   #main-heading {
-    font-size: 0.8em;
+    font-size: 1.5em !important;
   }
 }
