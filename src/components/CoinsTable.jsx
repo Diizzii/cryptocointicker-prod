@@ -57,7 +57,7 @@ const CoinsTable = () => {
             return (
               <tr key={coin.id}>
                 <td>{coin.crypto}</td>
-                <td>
+                <td className='has-text-center'>
                   <img
                     src={coin.symbol}
                     alt={coin.abbreviation}
