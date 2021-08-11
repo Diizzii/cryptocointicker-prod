@@ -43,7 +43,7 @@ const CoinsTable = () => {
       <table className='table center '>
         <thead>
           <tr>
-            <th>Crypto</th>
+            <th className='has-text-left'>Crypto</th>
             <th>Symbol</th>
             <th className='breakpoint'>Abbreviation</th>
             <th className='breakpoint'>Created</th>
