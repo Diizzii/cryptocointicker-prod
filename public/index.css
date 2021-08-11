@@ -53,8 +53,8 @@ td input {
 .coin-image {
   width: 20px;
   height: 20px;
-  display: inline-block;
-  margin: 0 auto;
+  position: relative;
+  left: 10px;
 }
 
 /* FOOTER */
