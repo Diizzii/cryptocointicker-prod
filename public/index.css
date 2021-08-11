@@ -73,4 +73,14 @@ td input {
   .breakpoint {
     display: none;
   }
+  #footer {
+    line-height: 1.2em;
+    padding: 0.2em;
+    margin: auto;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  #footer p {
+    margin-bottom: 0.1em;
+  }
 }
