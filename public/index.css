@@ -69,7 +69,7 @@ td input {
 
 /* BREAKPOINTS */
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 800px) {
   .breakpoint {
     display: none;
   }
@@ -82,5 +82,8 @@ td input {
   }
   #footer p {
     margin-bottom: 0.1em;
+  }
+  #main-heading {
+    font-size: 1.2em;
   }
 }

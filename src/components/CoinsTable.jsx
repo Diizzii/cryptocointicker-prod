@@ -34,7 +34,10 @@ const CoinsTable = () => {
 
   return (
     <div className='container'>
-      <h1 className='is-size-1 has-text-weight-bold has-text-centered mt-5 has-text-info'>
+      <h1
+        id='main-heading'
+        className='is-size-1 has-text-weight-bold has-text-centered mt-5 has-text-info'
+      >
         Today's Crypto Markets
       </h1>
       <table className='table center '>
