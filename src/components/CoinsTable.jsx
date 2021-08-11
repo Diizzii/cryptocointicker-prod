@@ -61,7 +61,7 @@ const CoinsTable = () => {
                   <img
                     src={coin.symbol}
                     alt={coin.abbreviation}
-                    className='coin-image'
+                    className='coin-image has-text-center'
                   />
                 </td>
                 <td className='breakpoint'>{coin.abbreviation}</td>
